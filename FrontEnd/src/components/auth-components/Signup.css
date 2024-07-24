@@ -1,0 +1,111 @@
+/* src/styles/Signup.css */
+.signup-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto; /* Add overflow for scrolling */
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .popup-content {
+    margin-top: 25%;
+    margin-bottom: 5%;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: auto; /* Add overflow for scrolling */
+  }
+  
+  .popup-content h2 {
+    margin-bottom: 20px;
+    color: linear-gradient(to right, black, blue, pink); /* Gradient color for signup text */
+  }
+  
+  .popup-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup-content label {
+    margin-bottom: 10px;
+    text-align: left;
+    color: linear-gradient(to right, black, blue, pink); /* Gradient color for labels */
+  }
+  
+  .popup-content input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px; /* Add space below each input */
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  .popup-content button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background:  #ffd700; /* Gradient color for buttons */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for text color change */
+  }
+  
+  .popup-content button[type="submit"]:hover {
+    color: #3d677b; /* Change text color on hover */
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white; /* Red color for close button */
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: red; /* Darker red on hover */
+  }
+  
+  .switch-to-login {
+    margin-top: 20px;
+  }
+  
+  .switch-to-login button {
+    background: none;
+    border: none;
+    color: wheat;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth transition for text color change */
+  }
+  
+  .switch-to-login button:hover {
+    color: #ffa500; /* Change text color on hover */
+  }
+  
+  .account-logo {
+    width: 70px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

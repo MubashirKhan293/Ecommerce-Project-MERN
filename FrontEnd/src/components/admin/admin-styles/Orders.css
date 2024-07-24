@@ -1,0 +1,108 @@
+/* OrderList.css */
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 6% ;
+  }
+  
+  .order-item {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .order-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .order-info h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .order-info p, .order-info ul {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .cart-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-info {
+    flex: 1;
+  }
+  
+  .item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  .cart-items-wrapper{
+    border-bottom: 2px solid black;
+    padding:10px 0px;
+    border-top: 2px solid black;
+  }
+  .shipping-address{
+    border-bottom: 2px solid black;
+    padding-bottom:10px ;
+  }
+  
+  .order-delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-delete-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  @media (max-width: 768px) {
+    .order-list {
+        margin-top: 9% ;
+      }
+    .order-item {
+      flex-direction: column;
+    }
+  
+    .order-delete-button {
+      margin-top: 10px;
+      margin-right: 3%;
+      align-self: stretch;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 360px) {
+
+    .order-delete-button {
+      margin-top: 10px;
+      margin-right: 9%;
+      align-self: stretch;
+      text-align: center;
+    }
+  }

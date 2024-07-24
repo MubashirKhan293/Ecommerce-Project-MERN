@@ -1,0 +1,109 @@
+.cart-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+  }
+  
+  .cart-popup {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    height: 88%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    position: relative;
+    overflow-y: auto; /* Allow scrolling inside the popup */
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .cart-popup h2, p, .cart-item {
+    color: white;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(88% - 40px); /* Adjust this value to your needs */
+    overflow-y: auto; /* Make the items container scrollable */
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+  }
+  
+  .cart-item img {
+    max-width: 80px;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .my-button-row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-delete-button {
+    background: #ff4d4d;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  .delete-button:hover {
+    background: #ff0000;
+  }
+  
+  .checkout-button {
+    background: wheat;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  .checkout-button:hover {
+    background: #ffa500;
+  }
+
+  .close-cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white; /* Red color for close button */
+    cursor: pointer;
+  }
+  
+  .close-cart:hover {
+    color: red; /* Darker red on hover */
+  }
+  

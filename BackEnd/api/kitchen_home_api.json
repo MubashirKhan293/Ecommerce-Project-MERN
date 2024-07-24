@@ -1,0 +1,274 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Rotisserie Ovens",
+        "description": "Perfect for roasting delicious and juicy chicken, ideal for home and commercial use.",
+        "price": "999$",
+        "category": "oven",
+        "image": "images/ovens/chicken-rotisserie-ovens.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chinese Smokehouse Ovens",
+        "description": "Traditional Chinese-style ovens designed for smoking and slow-cooking meats to perfection.",
+        "price": "1199$",
+        "category": "oven",
+        "image": "images/ovens/chinese-smokehouse-ovens.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Combination Ovens",
+        "description": "Versatile ovens that combine multiple cooking functions, including baking, steaming, and roasting.",
+        "price": "1999$",
+        "category": "oven",
+        "image": "images/ovens/combination-ovens.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Convection Ovens",
+        "description": "Efficient and fast ovens using a fan to circulate hot air, ensuring even cooking and browning.",
+        "price": "899$",
+        "category": "oven",
+        "image": "images/ovens/convection-ovens.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cook & Hold Ovens",
+        "description": "Designed to cook food slowly and hold it at a ready-to-serve temperature without overcooking.",
+        "price": "1299$",
+        "category": "oven",
+        "image": "images/ovens/Cook-and-Hold-Ovens.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Microwave Ovens",
+        "description": "Quick and convenient ovens for heating and cooking a variety of foods with minimal effort.",
+        "price": "799$",
+        "category": "oven",
+        "image": "images/ovens/Microwave-Ovens.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pizza Deck Ovens",
+        "description": "Specialized ovens for baking perfect, crispy pizza with an authentic stone-baked flavor.",
+        "price": "999$",
+        "category": "oven",
+        "image": "images/ovens/pizza-dick-ovens.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Commercial Char Broilers",
+        "description": "Ideal for grilling meats and vegetables with a perfect charred flavor.",
+        "price": "899$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Commercial-Char-Broilers.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Commercial Crepe Makers",
+        "description": "Professional-grade machines for making delicious and perfectly thin crepes.",
+        "price": "999$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Commercial-Crepe-Makers.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Electric Griddles Flat Top Grills",
+        "description": "Versatile and efficient for cooking a wide range of foods with consistent heat.",
+        "price": "1199$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Electric-Griddles-Flat-Top-Grills.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Gas Griddles Flat Top Grills",
+        "description": "Reliable and powerful grills for quick and even cooking, perfect for any kitchen.",
+        "price": "799$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Gas-Griddles-Flat-top-Grills.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Griddle Broiler Combos",
+        "description": "Combination units for both griddling and broiling, offering great cooking flexibility.",
+        "price": "1999$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Griddle-Broiler-Combos.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Griddle Burners Combos",
+        "description": "Combos that provide both griddling and burning options, ideal for varied cooking needs.",
+        "price": "1299$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Griddle-Burners-Combos.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Outdoor Gas Grills",
+        "description": "Robust and durable grills designed for outdoor cooking, great for barbecues and gatherings.",
+        "price": "999$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Outdoor-Gas-Grills.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Panini Grills Sandwich Maker",
+        "description": "Efficient and easy-to-use grills for making delicious paninis and sandwiches.",
+        "price": "799$",
+        "category": "Commercial Grills",
+        "image": "images/commercial-grills/Panini-Grills-Sandwich-Maker.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Airpot Coffee Brewers",
+        "description": "Brewers that dispense coffee directly into airpots, perfect for large gatherings.",
+        "price": "499$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Airpot-Coffee-Brewers.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Coffee Grinders",
+        "description": "High-quality grinders to ensure freshly ground coffee for every brew.",
+        "price": "299$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Coffee-Grinders.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Coffee Warmers",
+        "description": "Keep your coffee hot and ready to serve with these efficient warmers.",
+        "price": "99$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Coffee-Warmers.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Cold Brew and Iced Coffee Machines Dispensers",
+        "description": "Specialized machines for making refreshing cold brew and iced coffee.",
+        "price": "699$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Cold-Brew-and-Iced-Coffee-Machines-Dispensers.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Commercial Coffee Makers",
+        "description": "Durable and high-capacity coffee makers designed for commercial use.",
+        "price": "999$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Commercial-Coffee-Makers.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Espresso Machines",
+        "description": "Professional-grade machines for brewing the perfect espresso shot.",
+        "price": "1499$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Espresso-Machines.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Hot Water Dispensers",
+        "description": "Convenient dispensers for hot water, ideal for tea and instant beverages.",
+        "price": "399$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Hot-Water-Dispensers.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Liquid Coffee Dispensers",
+        "description": "Efficient dispensers for serving liquid coffee quickly and easily.",
+        "price": "799$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/liquidCoffeeDispensers.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Single Cup Coffee Maker",
+        "description": "Convenient single-serve coffee makers for a quick, personalized brew.",
+        "price": "199$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Single-Cup-Coffee-Maker.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Syrup Warmer Dispensers",
+        "description": "Dispensers designed to keep coffee syrups warm and easy to serve.",
+        "price": "249$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Syrup-Warmer-Dispensers.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Tea Brewers Dispensers",
+        "description": "Brewers and dispensers specifically for making and serving tea.",
+        "price": "349$",
+        "category": "Coffee Equipment",
+        "image": "images/coffee-equipment/Tea-Brewers-Dispensers.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Aqua Allegoria Perfume",
+        "description": "A refreshing and vibrant scent inspired by nature.",
+        "price": "199$",
+        "category": "Perfume",
+        "image": "images/perfumes/aqua-Allegoria-perfume.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Aroma",
+        "description": "A captivating fragrance that evokes a sense of elegance.",
+        "price": "249$",
+        "category": "Perfume",
+        "image": "images/perfumes/aroma.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Channel Paris",
+        "description": "An iconic scent from Paris, embodying luxury and sophistication.",
+        "price": "399$",
+        "category": "Perfume",
+        "image": "images/perfumes/channel-paris.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Darham",
+        "description": "A bold and exotic fragrance with a rich, deep aroma.",
+        "price": "149$",
+        "category": "Perfume",
+        "image": "images/perfumes/darham.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Fragrance",
+        "description": "A delightful blend of floral and woody notes for everyday wear.",
+        "price": "199$",
+        "category": "Perfume",
+        "image": "images/perfumes/fragrance.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Rose Perfume",
+        "description": "A romantic and timeless scent with the essence of fresh roses.",
+        "price": "299$",
+        "category": "Perfume",
+        "image": "images/perfumes/rose-perfume.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Scent",
+        "description": "A unique and modern fragrance that leaves a lasting impression.",
+        "price": "349$",
+        "category": "Perfume",
+        "image": "images/perfumes/scent.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Victoria's Secret Bombshell",
+        "description": "A glamorous and seductive scent from Victoria's Secret.",
+        "price": "299$",
+        "category": "Perfume",
+        "image": "images/perfumes/victoria's-secret-bombshell.jpg"
+    }
+]

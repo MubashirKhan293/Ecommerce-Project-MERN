@@ -1,0 +1,150 @@
+.admin-menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.932);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .admin-menu-bar.fixed {
+    position: fixed;
+  }
+  
+  .admin-logo {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+  }
+  
+  .admin-logo-image {
+    width: 50px;
+    height: 50px; 
+    margin-right: 10px;
+    border-radius: 25px;
+  }
+  
+  .admin-logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .admin-nav-links {
+    display: flex;
+    gap: 50px;
+    margin-left: 43%;
+    margin-right: 1%;
+  }
+  
+  .admin-nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .admin-nav-links a:hover {
+    color: #ffd700;
+  }
+  
+  .admin-icons {
+    margin-right: 50px;
+    display: flex;
+  }
+  .admin-icons a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .admin-icons a:hover {
+    color: #ffd700;
+  }
+  
+  .admin-icons svg {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .admin-icons svg:hover {
+    color: #ffd700;
+  }
+  
+  .admin-drawer-icon {
+    display: none;
+  }
+  .admin-nav-links a {
+    padding: 8px;
+  }
+  
+  .admin-nav-links a.active {
+    background-color: #ffcc00;
+    color: black;
+    border-radius: 4px;
+  }
+  
+  
+  @media (max-width: 1100px) {
+    
+  .admin-logo-image {
+    width: 37px;
+    height: 37px; 
+    margin-right: 5px;
+  }
+  
+  .admin-logo-text {
+    font-size: 16px;
+  }
+    .admin-nav-links {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 55%;
+      background: rgba(0, 0, 0, 0.9);
+      padding: 20px 0;
+      z-index: 1000;
+    }
+  
+    .admin-nav-links.open {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .admin-icons {
+      flex-direction: row;
+      gap: 40px;
+    }
+  
+    .admin-drawer-icon {
+      display: block;
+    }
+  
+    .admin-home-content h1 {
+      font-size: 36px;
+    }
+  
+    .admin-order-button {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 280px) {
+    
+    .admin-logo-image {
+      width: 30px;
+      height: 30px; 
+      margin-right: 5px;
+    }
+    
+    .admin-logo-text {
+      font-size: 10px;
+    }}

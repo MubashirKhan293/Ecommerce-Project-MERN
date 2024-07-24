@@ -1,0 +1,240 @@
+/* Categories.css */
+
+.categories-page {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  width: 20%;
+  background:  #ffd700;
+  padding: 20px;
+  position: fixed; /* Make the sidebar fixed */
+  top: 0;
+  bottom: 0; /* Align it to the bottom */
+  left: 0;
+  padding-top: 6%;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.category-list li div{
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background: black;
+}
+.category-list li div:hover{
+  color: black;
+  background-color: #ffa500;
+  margin-left:10px ;
+  margin-top: 2px;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.category-list a:hover {
+  color: black;
+  background-color: #ffa500;
+}
+
+.category-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 23%; 
+  color: white;
+}
+
+.item-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.item-details {
+  padding: 10px;
+  
+}
+
+.item-details h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+  padding-bottom: 10px;
+  text-align: start;
+}
+.item-d-heading{
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+.item-details p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.add-to-cart {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item:hover .add-to-cart {
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-to-cart:hover {
+  background-color: #ffa500;
+}
+
+.category-list a.active {
+  color: #ffa500;
+  font-weight: bold; 
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .categories-page {
+    flex-direction: column; /* Stack elements vertically */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static; /* Make the sidebar static */
+    height: 85px;
+    padding-top: 3%;
+  }
+
+  .category-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .category-list a {
+    font-size: 12px;
+  }
+  .category-list li div{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1px;
+  }
+  .category-list li div:hover{
+    color: black;
+    background-color: #ffa500;
+    margin-top:5px ;
+    margin-left: 0;
+  }
+  .category-content {
+    margin-left: 0;
+    padding-top: 0;
+    margin-top: 0px;
+  }
+  
+.item-details h3 {
+  font-size: 14px;
+}
+.item-d-heading{
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+.item-details p {
+  font-size: 14px;
+}
+
+  .item-grid {
+    margin-top: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 500px) {
+  .categories-page {
+    flex-direction: column; /* Stack elements vertically */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static; /* Make the sidebar static */
+    height: 80px;
+  }
+  .category-list a {
+    font-size: 10px;
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 429px) {
+  .categories-page {
+    flex-direction: column; /* Stack elements vertically */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .sidebar {
+    height: 85px;
+  }
+  .category-list a {
+    font-size: 8px;
+  }
+}

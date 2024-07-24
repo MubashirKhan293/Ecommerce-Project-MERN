@@ -1,0 +1,160 @@
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  background: rgba(0, 0, 0, 0.932);
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-bar.fixed {
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 70px;
+  height: auto;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px; 
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin-left: 44%;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+.icons {
+  margin-right: 50px;
+  display: flex;
+  gap: 50px;
+}
+.icons a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.icons a:hover {
+  color: #ffd700;
+}
+
+.icons svg {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icons svg:hover {
+  color: #ffd700;
+}
+
+.drawer-icon {
+  display: none;
+}
+.nav-links a {
+  padding: 8px;
+}
+
+.nav-links a.active {
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    margin-left: 33%;
+  }
+
+}
+@media (max-width: 1100px) {
+  
+.logo-image {
+  width: 37px;
+  height: 37px; 
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-size: 16px;
+}
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 55%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    z-index: 1000;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .icons {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .drawer-icon {
+    display: block;
+  }
+
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .order-button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 280px) {
+  
+  .logo-image {
+    width: 30px;
+    height: 30px; 
+    margin-right: 5px;
+  }
+  
+  .logo-text {
+    font-size: 10px;
+  }}

@@ -1,0 +1,83 @@
+
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: #008000;
+    margin-bottom: 10px;
+  }
+  .feedback-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 7%;
+  }
+  
+  .feedback-list h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .feedback-item {
+    padding: 15px;
+    background-color: #1e1e1e;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    position: relative; /* For positioning the delete button */
+  }
+  
+  .feedback-item h3 {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .feedback-item p {
+    margin-bottom: 5px;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+  
+  @media (max-width: 768px) {
+    .feedback-list {
+      padding: 10px;
+      margin-top: 10%;
+    }
+  
+    .feedback-item {
+      padding: 10px;
+    }
+  
+    .delete-button {
+        margin-top: 10px;
+        align-self: stretch;
+        text-align: center;
+    }
+  }
+  
+  .error-message {
+    color: #ff0000;
+  }
+  
